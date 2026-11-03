@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Payment Page</title>
+    </head>
+    <body>
+
+    </body>
+</html>

@@ -1,3 +1,3 @@
 <?php
-require __DIR__ . '/../views/miscellaneous/navigation-bar.php';
+require __DIR__ . '/../views/browsing-system/gallery.php';
 ?>

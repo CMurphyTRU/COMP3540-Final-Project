@@ -7,7 +7,7 @@
                     <li>
                         <a href="" class="retro-button">
                             <span class="button-icon">
-                                <img src="/Images/dpad-button.svg" class="navigation-dpad" alt="D-pad">
+                                <img src="/images/dpad-button.svg" class="navigation-dpad" alt="D-pad">
                             </span>
                             <span class="button-label">Webpage 1</span>
                         </a>

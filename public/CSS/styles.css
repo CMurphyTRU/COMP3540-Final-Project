@@ -15,10 +15,11 @@ body
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
-    
+    overflow: hidden; 
 }
 
+/* Account Page */
+/*-----------------------------------------------*/
 .t
 {
     width: 95%;
@@ -60,7 +61,7 @@ body
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
 }
 
-.testcard
+.glasscard
 {
     /* From https://css.glass */
     position: relative;
@@ -214,3 +215,128 @@ body
 .viewCodeButton button:hover {
     opacity: 80%;
 }
+
+/*------------------------------------------------*/
+
+/*Log In Page */
+/*------------------------------------------------*/
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-container h1 {
+    font-size: 32px;
+    color: #3C1518;
+    margin: 0 0 20px 0;
+    padding-bottom: 12px;
+    padding-top: 32px;
+    border-bottom: 3px solid #A44200;
+}
+
+.login-container .sunken-box {
+    width: 80%;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.input-group label {
+    font-size: 26px;
+    font-weight: bold;
+    color: #69140E;
+    margin-bottom: 10px;
+    
+}
+
+.input-group input {
+    width: 100%;
+    box-sizing: border-box;
+    height: 80px;
+    font-size: 40px;
+    padding-left: 5px;
+
+    background: rgba(255, 255, 255, 0.4);
+    color: #3C1518;
+
+    border: 2px solid rgba(105, 20, 14, 0.2);
+    border-radius: 12px;
+
+    outline: none;
+
+    transition: all 0.25s ease;
+}
+
+.input-group input:hover {
+    background: rgba(255, 255, 255, 0.55);
+    border-color: #a44200;
+}
+
+.input-group input:focus {
+    background: rgba(255, 255, 255, 0.7);
+    border-color: #a44200;
+
+    box-shadow: 0 0 0 4px rgba(164, 66, 0, 0.15);
+}
+
+.input-group input::placeholder {
+    color: rgba(60, 21, 24, 0.55);
+    font-size: 40px;
+}
+
+.login-button {
+    display: block;
+    margin: 50px auto;
+    background-color: #D58936;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-size: 30px;
+    width: 50%;
+    height: 80px;
+}
+
+.login-button:hover {
+    opacity: 80%;
+}
+/*---------------------------------------------------*/
+
+/* Sign Up Page */
+/*---------------------------------------------------*/
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-container h1 {
+    font-size: 32px;
+    color: #3C1518;
+    margin: 0 0 20px 0;
+    padding-bottom: 12px;
+    padding-top: 32px;
+    border-bottom: 3px solid #A44200;
+}
+
+.signup-container .sunken-box {
+    width: 80%;
+}
+
+#signupPrompt {
+    display: block;
+    margin: 50px auto;
+    color: #D58936;
+    text-align: center;
+}
+
+#signupPrompt a:hover {
+    opacity: 80%;
+}
+

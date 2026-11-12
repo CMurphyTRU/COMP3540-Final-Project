@@ -9,7 +9,7 @@
       <div class="t"><div class="tt"><div class="ttt"><div class="tttt"></div></div></div></div>
       
       <div class="scroll-container">
-        <div class="testcard">
+        <div class="glasscard">
             <div class="pfpandinfo">
                 <div class="profilePicture">
                     <img src="pfp.avif" />

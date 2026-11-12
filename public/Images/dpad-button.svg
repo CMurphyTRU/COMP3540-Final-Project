@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="D-pad plus button">
+  <path
+    d="M39 2
+       Q34 2 34 7
+       V32 H8
+       Q2 32 2 38
+       V62
+       Q2 68 8 68
+       H34 V93
+       Q34 98 39 98
+       H61
+       Q66 98 66 93
+       V68 H92
+       Q98 68 98 62
+       V38
+       Q98 32 92 32
+       H66 V7
+       Q66 2 61 2
+       Z"
+    fill="#3C1518"
+    stroke="#F2F3AE"
+    stroke-width="4.5"
+    stroke-linejoin="round" />
+</svg>

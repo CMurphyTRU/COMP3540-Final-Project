@@ -1,3 +1,3 @@
 <?php
-require __DIR__ . '/../views/browsing-system/game-info.php';
+require __DIR__ . '/../views/miscellaneous/admin-control-pannel.php';
 ?>

@@ -4,9 +4,15 @@
     <title>About us</title>
     
     <link rel="stylesheet" href="../../public/CSS/styles.css">
+
+    <?php require_once '../miscellaneous/navigation-bar.php'; ?>
   </head>
   <body>
-      <div class="t"><div class="tt"><div class="ttt"><div class="tttt"></div></div></div></div>
+      <style>
+      body {
+            background-image: url("../../public/images/bg-7-retro-sunset.svg");
+        }
+      </style>
       
       <div class="scroll-container">
         <div class="glasscard">

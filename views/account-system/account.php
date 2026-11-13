@@ -4,6 +4,8 @@
     <title>Hello World!</title>
     
     <link rel="stylesheet" href="../../public/CSS/styles.css">
+
+    <?php require_once '../miscellaneous/navigation-bar.php'; ?>
   </head>
   <body>
       <style>

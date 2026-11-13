@@ -4,10 +4,16 @@
     <title>Sign up</title>
     
     <link rel="stylesheet" href="../../public/CSS/styles.css">
+
+    <?php require_once '../miscellaneous/navigation-bar.php'; ?>
   </head>
   <body>
-      <div class="t"><div class="tt"><div class="ttt"><div class="tttt"></div></div></div></div>
-      
+    <style>
+      body {
+            background-image: url("../../public/images/bg-7-retro-sunset.svg");
+        }
+      </style>
+
       <div class="scroll-container">
         <div class="glasscard">
             <div class="signup-container">
@@ -38,7 +44,7 @@
                         <button type="submit" class="login-button">Log In</button>
                     </form>
 
-                    <h2 id="signupPrompt">Already have an account? <a style="text-decoration: none" href="login.php">Log in</a></h2>
+                    <h2 id="signupPrompt">Already have an account? <a href="login.php">Log in</a></h2>
                 </div>
             </div>
         </div>

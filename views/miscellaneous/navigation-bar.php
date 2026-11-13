@@ -5,11 +5,11 @@
             <div class="inner-navigation-box">
                 <ul class="navigation-list">
                     <li>
-                        <a href="" class="retro-button">
+                        <a href="../browsing-system/gallery.php" class="retro-button">
                             <span class="button-icon">
                                 <img src="../../public/images/dpad-button.svg" class="navigation-dpad" alt="D-pad">
                             </span>
-                            <span class="button-label">Webpage 1</span>
+                            <span class="button-label">Home</span>
                         </a>
                     </li>
 
@@ -113,7 +113,7 @@
                 justify-content: center;
                 align-items: center;
 
-                pointer-events: none;
+                
             }
 
         body

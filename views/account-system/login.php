@@ -4,9 +4,15 @@
     <title>Log in</title>
     
     <link rel="stylesheet" href="../../public/CSS/styles.css">
+
+    <?php require_once '../miscellaneous/navigation-bar.php'; ?>
   </head>
   <body>
-      <div class="t"><div class="tt"><div class="ttt"><div class="tttt"></div></div></div></div>
+      <style>
+        body {
+            background-image: url("../../public/images/bg-7-retro-sunset.svg");
+        }
+      </style>
       
       <div class="scroll-container">
         <div class="glasscard">
@@ -26,7 +32,7 @@
                         </div>
 
                         <button type="submit" class="login-button">Log In</button>
-                        <h2 id="signupPrompt">Don't have an account? <a style="text-decoration: none" href="signup.php">Sign up</a></h2>
+                        <h2 id="signupPrompt">Don't have an account? <a href="signup.php">Sign up</a></h2>
                     </form>
                 </div>
             </div>

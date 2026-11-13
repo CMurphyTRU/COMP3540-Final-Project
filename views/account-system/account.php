@@ -6,7 +6,11 @@
     <link rel="stylesheet" href="../../public/CSS/styles.css">
   </head>
   <body>
-      <div class="t"><div class="tt"><div class="ttt"><div class="tttt"></div></div></div></div>
+      <style>
+        body {
+            background-image: url("../../public/images/bg-7-retro-sunset.svg");
+        }
+      </style>
       
       <div class="scroll-container">
         <div class="glasscard">
@@ -21,7 +25,11 @@
                 </div>
             </div>
         <div class="recentPurchases">
-            <h1>Recent Purchases</h1>
+            <div class="RPHeader">
+                <h1>Recent Purchases</h1>
+                <h1 id="view-all-recent-purchases"><a href="purchase-history.php">View all</a></h2>
+            </div>
+            
             <div class="sunken-box">
                 
             <!-- TEMPORARY - TO BE REPLACED WITH DATABASE CODE -->
@@ -45,7 +53,7 @@
                     "image" => "../../public/images/stardewvalley.png",
                     "date" => "2026-11-12",
                     "price" => 39.99
-                ],
+                ]
             ];
 
             foreach ($purchases as $purchase) {

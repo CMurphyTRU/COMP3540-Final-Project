@@ -20,46 +20,6 @@ body
 
 /* Account Page */
 /*-----------------------------------------------*/
-.t
-{
-    width: 95%;
-    height: 100vh;
-    background-color: #69140e;
-    display:flex;
-    align-items:center;
-    justify-content: center;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
-}
-
-.tt
-{
-    width: 94%;
-    height: 100vh;
-    background-color: #a44200;
-    display:flex;
-    align-items:center;
-    justify-content: center;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
-}
-
-.ttt
-{
-    width: 93%;
-    height: 100vh;
-    background-color: #D58936;
-    display:flex;
-    align-items:center;
-    justify-content: center;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
-}
-
-.tttt
-{
-    width: 92%;
-    height: 100vh;
-    background-color: #f2f3ae;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
-}
 
 .glasscard
 {
@@ -107,13 +67,14 @@ body
 .userInformation h1 {
     font-size: clamp(28px, 3vw, 48px);
     margin: 0 0 15px 0;
-    color: #3C1518;
+    color: #A44200;
+    
 }
 
 .userInformation p {
     font-size: 24px;
     margin: 0;
-    color: #69140E;
+    color: #D58936;
 }
 
 .sunken-box {
@@ -143,10 +104,10 @@ body
 
 .recentPurchases h1 {
     font-size: 32px;
-    color: #3C1518;
+    color: #A44200;
     margin: 0 0 20px 0;
     padding-bottom: 12px;
-    border-bottom: 3px solid #A44200;
+    
 }
 
 .purchase-card {
@@ -214,6 +175,30 @@ body
 
 .viewCodeButton button:hover {
     opacity: 80%;
+}
+
+.RPHeader {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #D58936;
+}
+
+.RPHeader h1 {
+    margin: 0;
+}
+
+.RPHeader a {
+    text-decoration: none;
+    color:#A44200;
+}
+
+.RPHeader a:hover {
+    opacity: 80%;
+    text-decoration: underline;
+}
+
+#view-all-recent-purchases {
+    
 }
 
 /*------------------------------------------------*/

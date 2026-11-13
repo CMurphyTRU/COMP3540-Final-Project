@@ -7,7 +7,7 @@
                     <li>
                         <a href="" class="retro-button">
                             <span class="button-icon">
-                                <img src="/images/dpad-button.svg" class="navigation-dpad" alt="D-pad">
+                                <img src="../../public/images/dpad-button.svg" class="navigation-dpad" alt="D-pad">
                             </span>
                             <span class="button-label">Webpage 1</span>
                         </a>
@@ -63,10 +63,10 @@
 
     <style>
         
-        .glass-edge
-        {
+        /*.glass-edge */
+        /*{
             /* From https://css.glass */
-            background: rgba(255, 255, 255, 0);
+            /*background: rgba(255, 255, 255, 0);
             border-radius: 0 0 16px 16px;
 
             box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -83,7 +83,38 @@
             display: flex;
             justify-content: center;
             align-items: center;
-        }
+        } */
+
+            .glass-edge {
+                position: fixed;
+                top: 0;
+                left: 0;
+                
+                z-index: 2;
+
+                background: #F2F3AE;
+                border-bottom: 5px solid #A44200;
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+
+                border-radius: 0 0 32px 32px;
+
+                
+
+                backdrop-filter: blur(13.6px);
+                -webkit-backdrop-filter: blur(13.6px);
+
+                width: 100%;
+                box-sizing: border-box;
+                height: fit-content;
+
+                padding-bottom: 8px;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                pointer-events: none;
+            }
 
         body
         {
@@ -257,8 +288,6 @@
             flex-direction: column;
             align-items: center;
             gap: 5px;
-
-            color:;
             text-decoration: none;
         }
 

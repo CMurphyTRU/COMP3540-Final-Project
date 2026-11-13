@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hello World!</title>
+    <title>Sign up</title>
     
     <link rel="stylesheet" href="../../public/CSS/styles.css">
   </head>

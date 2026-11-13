@@ -1,3 +1,3 @@
 <?php
-require __DIR__ . '/../views/browsing-system/gallery.php';
+require __DIR__ . '/../views/browsing-system/game-info.php';
 ?>

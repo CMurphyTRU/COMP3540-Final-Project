@@ -50,6 +50,8 @@
 
             .payment-section
             {
+                background-image: url('/images/bg-10-crowns.svg');
+                background-repeat: repeat;
                 background-color: rgb(90, 21, 24);
                 flex: 1;
                 overflow-x: hidden;

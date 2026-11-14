@@ -1,3 +1,3 @@
 <?php
-require __DIR__ . '/../views/miscellaneous/admin-control-pannel.php';
+require __DIR__ . '/../views/product-system/payment.php';
 ?>

@@ -2,6 +2,8 @@
 <html>
     <head>
         <title>Gallery Page</title>
+
+        <?php require_once '../miscellaneous/navigation-bar.php'; ?>
         <style>
             html
             {
@@ -16,12 +18,18 @@
                 gap: 28px;
                 max-width: 1200px;
                 margin: 0 auto 30px auto;
+                margin-top: 175px;
                 border-bottom: 1px solid #69140E;
                 background-color: #3C1518;
                 border-radius: 10px;
                 padding-left: 30px;
                 padding-right: 30px;
-                box-shadow: 0 8px 12px -6px rgba(0, 0, 0, 0.7);
+                box-shadow:
+                0 4px 6px rgba(0, 0, 0, 0.25),
+                0 12px 24px rgba(0, 0, 0, 0.45),
+                0 24px 45px rgba(0, 0, 0, 0.25),
+                inset 0 1px 0 rgba(255, 255, 255, 0.12);
+
             }
 
             .filter-button

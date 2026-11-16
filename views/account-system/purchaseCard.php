@@ -11,4 +11,13 @@
     <div class="viewCodeButton">
         <button id="viewCodeBtn">View Code</button>
     </div>
+
+    <script>
+        let btn = document.getElementById("viewCodeBtn");
+
+        btn.addEventListener("click", () => {
+            window.location.href = '../../views/product-system/key.php';
+        }
+    )
+    </script>
 </div>

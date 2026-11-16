@@ -14,38 +14,38 @@
                     </li>
 
                     <li>
-                        <a href="" class="retro-button">
+                        <a href="../../views/miscellaneous/about-us.php" class="retro-button">
                             <span class="button-icon">
                                 <div class="white-button-border">
                                     <span class="button-icon-circle" id="button1"></span>
                                 </div>
                             </span>
-                            <span class="button-label">Webpage 2</span>
+                            <span class="button-label">About</span>
                         </a>
                     </li>
 
                     <li>
                         <div class="navigation-pill-track">
                             <div class="navigation-pill-group">
-                                <a href="" class="navigation-pill">Webpage 3</a>
-                                <a href="" class="navigation-pill">Webpage 4</a>
+                                <a href="../../views/account-system/login.php" class="navigation-pill">Log In</a>
+                                <a href="../../views/account-system/signup.php" class="navigation-pill">Sign Up</a>
                             </div>
                         </div>
                     </li>
 
                     <li>
-                        <a href="" class="retro-button">
+                        <a href="../../views/policies/privacy-policy.php" class="retro-button">
                             <span class="button-icon">
                                 <div class="white-button-border">
                                     <span class="button-icon-circle" id="button2"></span>
                                 </div>
                             </span>
-                            <span class="button-label">Webpage 5</span>
+                            <span class="button-label">Privacy</span>
                         </a>
                     </li>
 
                     <li>
-                        <a href="" class="retro-button">
+                        <a href="../../views/policies/terms.php" class="retro-button">
                             <span class="button-icon">
                                 <div class="white-button-border">
                                     <span class="button-shape-shadow">
@@ -53,7 +53,7 @@
                                     </span>
                                 </div>
                             </span>
-                            <span class="button-label">Webpage 6</span>
+                            <span class="button-label">Terms</span>
                         </a>
                     </li>
                 </ul>

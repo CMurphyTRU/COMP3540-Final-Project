@@ -10,8 +10,60 @@
   <body>
       <style>
       body {
-            background-image: url("../../public/images/bg-7-retro-sunset.svg");
+            background-image: url('../../public/images/bg-10-crowns.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
         }
+
+        .scroll-container {
+            position: fixed;
+
+            top: 0px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+
+            overflow-y: auto;
+            overflow-x: hidden;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            padding-top: 150px;
+            box-sizing: border-box;
+
+            scrollbar-width: none;
+            
+        }
+
+        .glasscard
+        {
+            /* From https://css.glass */
+            position: relative;
+            
+            width: 80%;
+            height: auto;
+
+            top: auto;
+            margin: 20px 0;
+            flex-shrink: 0;
+            
+            
+            background: rgba(255, 255, 255, 0);
+            border-radius: 16px;
+            
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 1);
+            
+            backdrop-filter: blur(13.6px);
+            -webkit-backdrop-filter: blur(13.6px);
+        }
+
+        #aboutusParagraph {
+          margin: 30px 30px;
+          font-size: 20px;
+          color: #F2F3AE;
+      }
       </style>
       
       <div class="scroll-container">

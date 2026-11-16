@@ -29,7 +29,7 @@
         <div class="recentPurchases">
             <div class="RPHeader">
                 <h1>Recent Purchases</h1>
-                <h1 id="view-all-recent-purchases"><a href="purchase-history.php">View all</a></h2>
+                <h1 id="view-all-recent-purchases"><a href="../product-system/purchase-history.php">View all</a></h2>
             </div>
             
             <div class="sunken-box">
@@ -55,10 +55,64 @@
                     "image" => "../../public/images/stardewvalley.png",
                     "date" => "2026-11-12",
                     "price" => 39.99
-                ]
+                ],
+                [
+                    "title" => "Stardew Valley",
+                    "image" => "../../public/images/stardewvalley.png",
+                    "date" => "2026-11-12",
+                    "price" => 39.99
+                ],
+                [
+                    "title" => "Elden Ring",
+                    "image" => "../../public/images/eldenring.jpg",
+                    "date" => "2026-11-12",
+                    "price" => 79.99
+                ],
+                [
+                    "title" => "Stardew Valley",
+                    "image" => "../../public/images/stardewvalley.png",
+                    "date" => "2026-11-12",
+                    "price" => 39.99
+                ],
+                [
+                    "title" => "Elden Ring",
+                    "image" => "../../public/images/eldenring.jpg",
+                    "date" => "2026-11-12",
+                    "price" => 79.99
+                ],
+                [
+                    "title" => "Stardew Valley",
+                    "image" => "../../public/images/stardewvalley.png",
+                    "date" => "2026-11-12",
+                    "price" => 39.99
+                ],
+                [
+                    "title" => "Elden Ring",
+                    "image" => "../../public/images/eldenring.jpg",
+                    "date" => "2026-11-12",
+                    "price" => 79.99
+                ],
+                [
+                    "title" => "Stardew Valley",
+                    "image" => "../../public/images/stardewvalley.png",
+                    "date" => "2026-11-12",
+                    "price" => 39.99
+                ],
+                [
+                    "title" => "Elden Ring",
+                    "image" => "../../public/images/eldenring.jpg",
+                    "date" => "2026-11-12",
+                    "price" => 79.99
+                ],
+                [
+                    "title" => "Stardew Valley",
+                    "image" => "../../public/images/stardewvalley.png",
+                    "date" => "2026-11-12",
+                    "price" => 39.99
+                ],
             ];
 
-            foreach ($purchases as $purchase) {
+            foreach (array_slice($purchases, 0, 3) as $purchase) {
                 require 'purchaseCard.php';
             }
             ?>
